@@ -9,3 +9,59 @@ html {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+}
+
+.table-tours {
+
+}
+
+.table-tours__title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.table {
+  margin: 0 auto;
+  width: 700px;
+  border-collapse: collapse;
+  border: 1px solid black
+}
+
+.table__head-cell,
+.table__content-cell {
+  border-collapse: collapse;
+  border: 1px solid black
+}
+
+.table__head-cell {
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.table__content-cell {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.table__content-cell:first-child {
+  width: 15%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table__content-cell:nth-child(2) {
+  width: 60%;
+}
+
+.table__content-cell:last-child {
+  width: 25%;
+  text-align: center;
+  vertical-align: middle;
+}
