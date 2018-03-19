@@ -44,39 +44,40 @@ body {
 }
 
 .table__content-cell {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 15px;
   padding-right: 15px;
 }
 
 .table__content-cell:first-child {
-  width: 15%;
+  width: 17%;
   text-align: center;
   vertical-align: middle;
 }
 
 .table__content-cell:nth-child(2) {
   width: 60%;
+  cursor: pointer;
 }
 
 .table__content-cell:last-child {
-  width: 25%;
+  width: 23%;
   text-align: center;
   vertical-align: middle;
 }
 
-.table__content-row:hover::after {
+/* .table__content-row:hover::after {
   content: '';
   position: absolute;
   display: block;
-  width: 100px;
-  height: 50px;
+  width: 100%;
+  height: auto;
   background-color: red;
   right: 50%;
-}
+} */
 
 .table__content-row:hover {
-  background-color: gray;
+  background-color: rgba(50, 50, 120, 0.45);
   color: #ffffff;
 }
